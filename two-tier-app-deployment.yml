@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: two-tier-app
-          image: flaskapp:latest
+          image: trainwithshubham/flaskapp:latest
           env:
             - name: MYSQL_HOST
               value: "10.96.152.155" # put you cluster ip here.....        
