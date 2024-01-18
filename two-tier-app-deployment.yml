@@ -16,10 +16,10 @@ spec:
     spec:
       containers:
         - name: two-tier-app
-          image: trainwithshubham/flaskapp:latest
+          image: flaskapp
           env:
             - name: MYSQL_HOST
-              value: "10.96.152.155"         
+              value: "10.96.152.155" # put you cluster ip here.....        
             - name: MYSQL_PASSWORD
               value: "admin"
             - name: MYSQL_USER
