@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: two-tier-app
-          image: trainwithshubham/flaskapp:latest
+          image: flaskapp:latest
           env:
             - name: MYSQL_HOST
               value: "mysql"         
