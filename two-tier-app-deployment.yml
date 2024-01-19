@@ -19,7 +19,7 @@ spec:
           image: flaskapp:latest
           env:
             - name: MYSQL_HOST
-              value: "mysql"         
+              value: "10.96.152.155" # put you cluster ip here.....        
             - name: MYSQL_PASSWORD
               value: "admin"
             - name: MYSQL_USER
